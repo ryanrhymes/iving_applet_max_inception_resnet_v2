@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+
+  api:
+    image: codait/max-inception-resnet-v2:latest
+    ports:
+      - 5020:5000
